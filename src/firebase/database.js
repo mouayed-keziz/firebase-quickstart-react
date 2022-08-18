@@ -10,7 +10,12 @@ export const firebaseSet = async (value, path) => {
 //get elements from users/
 export const firebaseGet = async (path) => {
     get(ref(db, path)).then(snapshot => {
-        alert(snapshot.val().value);
+    if (snapshot.val() !== null) {   
+            alert(snapshot.val().value);
+    }
+    else {
+        alert("path not found");
+    }
     }).catch(error => {
         console.log(error);
     });
