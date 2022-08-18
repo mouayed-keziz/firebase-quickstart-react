@@ -20,5 +20,8 @@
 dont forget to put your firebase config in src/firebase/firebase.js
 
 <br/><br/>
+## 🚀 Try it yourself:
+Link : [firebase-react-template](https://react-and-firebase-template.web.app/)
+<br/><br/>
 
 ## `template is made by mouayed-keziz`
